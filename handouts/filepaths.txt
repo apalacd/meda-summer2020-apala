@@ -1,0 +1,7 @@
+FILEPATHS:
+ABSOLUTE AND RELATIVE
+
+~ = /Users/yourusername/
+
+Example of Absolute filepath: /Users/MEDA/Documents/MEDA/meda-summer2020-eduardo/
+Example of Relative filepath: MEDA/meda-summer2020-eduardo/

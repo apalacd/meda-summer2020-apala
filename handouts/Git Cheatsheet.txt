@@ -1,0 +1,4 @@
+Step 1: Move to your Repo folder in Terminal.
+Step 2: git add -A
+Step 3: git commit -m "Description about changes"
+Step 5: git push
