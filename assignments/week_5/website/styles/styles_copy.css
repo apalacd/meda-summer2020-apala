@@ -1,0 +1,154 @@
+/* To change the background of the entire website
+select body and use property background-color. */
+body {
+    background-color: #014657; /* dark blue */
+    color: #31889D;
+}
+
+a {
+    color:#20F5C0;
+    /* text-decoration: none; */
+}
+h2 {
+    color: #31889D;
+}
+
+
+#container {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Arial"
+}
+
+#header {
+    background-color:midnightblue
+}
+
+/*To control the elements at a particular state of the element - use hover */
+
+/*#header:hover {
+    background-color: pink;
+} */
+
+#header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: snow;
+}
+
+#header ul {
+ /*  border-color: white;
+    border-style: dashed;
+    border-width: 1px;  */
+    color: white;
+    text-align: center;
+    padding-left:0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+
+}
+
+#header ul li {
+    background-color: darkgray;
+    /*border-style: dashed;*/
+ /*   border-style: inline-block;
+    border-width: 1px;
+    display: inline;  will line up the list elements in the unordered list(ul) one next to the other */
+    display: inline-block;  /* lines up list elements as blocks */
+    /*margin-left: 20px;*/
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 15px;
+}
+
+#header ul li a {
+ /*   color: red;    */
+}
+
+#header ul li a:link{
+    color: white;
+    text-decoration: none;
+}
+
+#header ul li a:visited {
+    color: lightskyblue;
+}
+
+#header ul li a:hover {
+    color: red;
+}
+
+#header ul li a:active {
+    color: pink;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+
+#main {
+}
+
+#first-section-title {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#main p {
+    text-align: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    line-height: 22px;
+    color: #02ACD6;
+} 
+
+
+#main img {
+   /* text-align: right;*/
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
+    border-radius: 85px;
+}
+
+#main img:hover{
+    border-color: pink;
+}
+
+#footer {
+/*    height: 100px; */
+}
+
+body#contact-page form#contact-form {
+  /*  border-color: red;  
+    border-width: 1px;
+    border-style: solid;    */
+    text-align: left;
+    margin-left: 100px;
+}
+
+body#contact-page form#contact-form input {
+    margin-bottom: 20px;
+    height: 50px;
+    width: 75%;
+    font-size: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkblue;
+    padding-left: 10px;
+}
+
+body#contact-page form#contact-form #submit {
+    font-size: 20px;
+    width: 100px;
+}
