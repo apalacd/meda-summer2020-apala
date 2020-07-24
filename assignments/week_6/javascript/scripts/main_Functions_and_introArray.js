@@ -78,22 +78,17 @@ console.log(days);
 
 // PUSH EXAMPLE
 
-//var multiples = [];
-//var multiplier = 9;
+/* var multiples = [];
+var multiplier = 9;
 
-/*for (var i = 0; i <= 12; i = i + 1) {
+for (var i = 0; i <= 12; i = i + 1) {
 
      var product = i * multiplier;
      multiples.push(product);
 
 }
-
-// var removedItem = multiples.shift();
-
-multiples.shift();
-
-console.log(multiples);
 */
+
 // var removedItem = multiples.shift();
 
 //multiples.shift(); will get rid of the first element 0;
@@ -102,27 +97,31 @@ console.log(multiples);
 
 function multiplesTables(multiplier, max = 12) {
 
-        var multiples = [];
-    
-        for (var i = 0; i <= 12; i = i + 1) {
-    
-            var product = i * multiplier;
-            multiples.push(product);
-        // unshift is opposite of push
-        //    multiples.unshift(product);
-    
-       
-       }
-    
-        return multiples;   
-    }
-    
-    // multiplier 7 upto 20
-    console.log(multiplesTables(3, 20));   
-    
-    console.log(multiplesTables(18, 20));
-    
-    days.pop();
-    console.log(days);
+    var multiples = [];
 
-    
+    for (var i = 0; i <= 12; i = i + 1) {
+
+        var product = i * multiplier;
+        multiples.push(product);
+    // unshift is opposite of push
+    //    multiples.unshift(product);
+
+   
+   }
+
+    return multiples;   
+}
+
+// multiplier 7 upto 20
+console.log(multiplesTables(3, 20));   
+
+//console.log(multiplesTables(18, 20));
+
+//days.pop();
+//console.log(days);
+
+// Difference between Null and Undefined
+// Null = intentionally emptying a variable
+// Undefined = was never assigned a value.
+
+//days[4] = null;
