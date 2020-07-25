@@ -5,18 +5,32 @@ Colors to be used
 =================
 
 
-Body :           #d2e7f5 
+body 	background-color: #530c4a 
+     	color: #c2f7d3
 
 
+a 	color:#f5ac84
 
-Header:          #4888bd 
-
-
-Link text :      #7941a3
+h2  	color: #a0f5c1
 
 
+header 	background-color:#8b0885 
 
-Background color:    #edf2f7
+header 	h1 color:#2A403F
+
+header 	ul color: white
+    
+header 	ul li background-color: #e1c7eb
+    
+header 	ul li a:link color: white
+    
+header 	ul li a:visited color: rgb(6, 86, 136)
+
+header 	ul li a:hover color: red
+
+header 	ul li a:active color: pink
+  
+main 	image hover border-color: pink
 
 
 
@@ -32,25 +46,27 @@ Images :
 Profile Image           IMG_Apala.jpg     
 
 
+Contact Page:
+
+Credits :
 Project Image           photo-of-four-high-rise-curtain-wall-buildings.jpg
- 
-Photo Credit : https://www.pexels.com/photo/low-angle-photo-of-four-high-rise-curtain-wall-buildings-under-white-clouds-and-blue-sky-830891/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
+Courtesy :              Pexels Images
+https://www.pexels.com/photo/low-angle-photo-of-four-high-rise-curtain-wall-buildings-under-white-clouds-and-blue-sky-830891/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels
 
 
-Contact LinkedIn Icon   linkedin-brands.svg
+LinkedIn Icon    linkedin-brands.svg
 
-Icon Credit and License : https://fontawesome.com/license
+LinkedIn Icon License : https://fontawesome.com/license
 
 _________________________________________________________________________________________
 
 
-Wireframe for HOME :
 
-Wireframe for ABOUTME :
+Wireframe for HOME :(index.html)
 
-Wireframe for PROJECTS :
+Wireframe for PROJECTS :(projects.html)
 
-Wireframe for CONTACT :
+Wireframe for CONTACT :(contact.html)
 
 
 _________________________________________________________________________________________
@@ -61,9 +77,7 @@ APALA CHANDOLA
 A Creative Business Systems Analyst/Manager driving Process Improvements, System Implementations and Project Management
 
 _______________________________
-
-
-Text Contents for ABOUTME page:
+About Me...
 
 I am an aspiring leader and an experienced Business Technologist/Project Manager with a demonstrated history of working in the internet and application software development industry. I am curious, analytical with interpersonal communication skills for influencing and collaborating with diverse technical, non-technical teams, and stakeholders. I am detailed oriented and have a great understanding of cultural diversity and sensitivity. 
  
@@ -152,11 +166,11 @@ Text Content for CONTACT :
 Are you looking for someone to bring in innovative solutions and changes to the way your organization works? Let’s connect…
 
 
-		     Email    
+Email    
 
-                     LinkedIn Profile  <Link>
-		    
-		     Resume = <Link>
+LinkedIn Profile  <Link>
+		 
+Resume = <Link to pdf>
 
 
 _________________________________________________________________________________________

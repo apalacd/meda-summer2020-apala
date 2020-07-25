@@ -1,128 +1,92 @@
-// ARRAYS 
+/*
 
-var oneValue = 800;
+*
+**
+*** 
+****
+*****
+****
+***
+**
+*
 
-oneValue = 500;
-
-//A JavaScript array is described using the square brackets symboles, and each value within should be split by a comma except for the last value.
-
-//Array of days of a week
-var days = [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-];
-
-//Array of random values comprising of numbers, string and boolean
-var randomArray = [100, "hello", true];
-
-// Array of arrays
-var multiDimensionalArray = [
-        [10, 20],
-        [100, 200]
-];
-
-var newArray = randomArray + days;
-randomArray.concat(days);
-
-// Index of thursday in days[] array is 3
-console.log(days[3]);
-console.log(days[600]);
-
-days[2] = "whensday";
-
-console.log(days);
-
-
-function addArrays(array1, array2) {
-
-        var newArray = [
-                array1[1] + array2[0],
-                array1[1] + array2[1]
-        ]
-
-        return newArray;
-}
-
-var firstArray = [1, 10];
-var secondArray = [9, 90];
-var sumArray = addArrays(firstArray, secondArray);
-
-console.log(sumArray);
-
-days[7] = "SUPERDAY";
-
-console.log(days);
-
-// var a = [1, 2, 3, 4];
-// var b = [1, 2, 3, 4, 5];
-// console.log(sumArray(a, b));
-
-
-// ARRAY FUNCTIONS
-//
-// .push() puts a new piece of data at the end of the array.
-// Example : myArray.push("last item!"); This is also called In place modification and don't return anything
-// .pop()  - removes the last piece of date in the array and returs it to wherever you called .pop()
-//Example : myArray.pop()
-// .unshift()  : puts a new piece of data at the beginnig of the array.
-// Example: myArray.unshift("cutting the line!");
-// .shipft() removes the first piece of data in the array and returns it to whereever you called .shift()
-//Example: myArray.shift()
-
-
-
-// PUSH EXAMPLE
-
-//var multiples = [];
-//var multiplier = 9;
-
-/*for (var i = 0; i <= 12; i = i + 1) {
-
-     var product = i * multiplier;
-     multiples.push(product);
-
-}
-
-// var removedItem = multiples.shift();
-
-multiples.shift();
-
-console.log(multiples);
 */
-// var removedItem = multiples.shift();
 
-//multiples.shift(); will get rid of the first element 0;
+// Creating "Random" Numbers using JavaScript.
+Math.random(); // Creates a random number between 0 and 1;
+Math.ceil(); // Takes in a number and rounds it up.
+Math.floor(); // Takes in a number and rounds it down.
+Math.round(); // Takes in a number and rounds based on decimal value.
 
-//console.log(multiples);
+var randomNumberWithDecimal = (Math.random() * 10) + 1;
+var myRandomNumber =  Math.floor(randomNumberWithDecimal);
 
-function multiplesTables(multiplier, max = 12) {
+console.log(myRandomNumber);
 
-        var multiples = [];
-    
-        for (var i = 0; i <= 12; i = i + 1) {
-    
-            var product = i * multiplier;
-            multiples.push(product);
-        // unshift is opposite of push
-        //    multiples.unshift(product);
-    
-       
-       }
-    
-        return multiples;   
-    }
-    
-    // multiplier 7 upto 20
-    console.log(multiplesTables(3, 20));   
-    
-    console.log(multiplesTables(18, 20));
-    
-    days.pop();
-    console.log(days);
 
+
+
+// the double plus operator will take the current value of the variable and add a 1 to it and also replace the old value of the variable.
+// myVariable++;
+// myVariable = myVariable + 1; Does the same thing as previous line.
+
+var asteriskString = "*";
+var pyramidSpeed = "*";   // Go up by 1 *
+var pyramidHeight = 5;
+
+
+for (var counter = 0; counter < pyramidHeight; counter++) {
+    
+    console.log(asteriskString);
+    asteriskString = asteriskString + pyramidSpeed;
+
+}
+
+
+// "*****" -> "****"
+
+// var exampleString = "This is a example sentence!";
+// var exampleArray;
+
+// //exampleArray = exampleString.split("a");
+
+// exampleArray = exampleString.split("");
+
+
+// console.log(exampleArray);
+
+//exampleArray.toString();
+
+var exampleString = "*****";
+var exampleArray;
+
+// The Delimiter is the character that the split is going to look for so it knows where to split. Empty string delimiter will split EVERY CHARACTER.
+
+exampleArray = exampleString.split("");
+
+// exampleArray = exampleString.explode(); This is a PHP command.
+
+
+//console.log(exampleArray);
+
+exampleArray.pop();
+
+//var updatedString = exampleArray.toString();
+
+var updatedString = exampleArray.join("");
+
+console.log(updatedString);
+
+var exString = "**********";
+for (var i = 0; i < 10; i = i + 1) {
+        
+        var exArray;
+
+        exArray = exString.split("");
+        exArray.pop();
+
+        var upString = exArray.join("");
+        console.log(upString);
+
+}
     
